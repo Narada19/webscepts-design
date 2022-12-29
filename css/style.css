@@ -386,11 +386,11 @@
 	color: #fff;
 	text-transform: uppercase;
 	padding: 13px 30px;
-	background-color: #161616;
+	background-color: #202D75;
 	border-radius: 2px;
 }
 .readmore_but1:hover {
-	color: #161616;
+	color: #202D75;
 	background-color: #fff;
 }
 .readmore_but2 {
@@ -403,8 +403,8 @@
 }
 .readmore_but2:hover {
 	color: #fff;
-	border: 2px solid #161616;
-	background-color: #161616;
+	border: 2px solid #202D75;
+	background-color: #202D75;
 }
 .readmore_but3 {
 	float: left;
@@ -591,7 +591,7 @@
 	margin: 0px;
 	color: #fff;
 	text-align: center;
-	background-color: #8292ed;
+	background-color: #d9d9d9;
 }
 .section_holder1.two .box:hover {
 	background-color: #161616;
@@ -631,14 +631,14 @@
 	background-color: #202d75;
 }
 .section_holder1 .box.three {
-	background-color: #8292ed;
+	background-color: #d9d9d9;
 }
 .section_holder1 .box .arrow_down {
 	position: absolute;
 	margin: 40px 0px 0px 125px;
 	border-left: 30px solid transparent;
 	border-right: 30px solid transparent;
-	border-top: 20px solid #8292ed;
+	border-top: 20px solid #d9d9d9;
 	font-size: 0px;
 	line-height: 0;
 }
@@ -649,17 +649,17 @@
 	border-bottom: 20px solid #202d75;
 }
 .section_holder1 .box .arrow_down.three {
-	border-top: 20px solid #8292ed;
+	border-top: 20px solid #d9d9d9;
 }
 .section_holder1 .box .arrow_up.three {
-	border-bottom: 20px solid #8292ed;
+	border-bottom: 20px solid #d9d9d9;
 }
 .section_holder1 .box .arrow_up {
 	position: absolute;
 	margin: -60px 0px 0px 125px;
 	border-left: 30px solid transparent;
 	border-right: 30px solid transparent;
-	border-bottom: 20px solid #8292ed;
+	border-bottom: 20px solid #d9d9d9;
 	font-size: 0px;
 	line-height: 0;
 }
@@ -669,7 +669,8 @@
 	float: left;
 	padding: 0px 0 0px 0;
 	margin: 0px;
-	background: url("../images/parallax_bg1.jpg");
+	/* background: url("../images/parallax_bg1.jpg"); */
+	background: url("../images/plans.png");
 	background-attachment: fixed;
 	background-origin: initial;
 	background-clip: initial;
@@ -1194,7 +1195,8 @@ label.custom-select3 {
 	float: left;
 	padding: 0px 0 0px 0;
 	margin: 0px;
-	background: url("../images/parallax_bg2.jpg");
+	/* background: url("../images/parallax_bg2.jpg"); */
+	background: url("../images/create-website.png");
 	background-attachment: fixed;
 	background-origin: initial;
 	background-clip: initial;
@@ -1247,18 +1249,18 @@ label.custom-select3 {
 	border: 1px solid #fff;
 }
 .section_holder4 ul.icon li:hover a {
-	border: 1px solid #161616;
-	background-color: #161616;
+	border: 1px solid #202D75;
+	background-color: #202D75;
 }
 .section_holder4 .icon li:hover h6 {
-	color: #161616;
+	color: #202D75;
 }
 .section_holder4 ul.icon li.active a {
-	border: 1px solid #161616;
-	background-color: #161616;
+	border: 1px solid #202D75;
+	background-color: #202D75;
 }
 .section_holder4 .icon li.active h6 {
-	color: #161616;
+	color: #202D75;
 }
 .section_holder4 .readmore_but2 {
 	margin-left: 20px;
@@ -1814,7 +1816,7 @@ label.custom-select3 {
 	float: left;
 	padding: 0 0 50px 0;
 	margin: 0;
-	background-color: #161616;
+	background-color: #202D75;
 }
 .footer1 .social_links {
 	width: 100%;
@@ -1934,8 +1936,8 @@ label.custom-select3 {
 	float: left;
 	padding: 30px;
 	margin: 0;
-	border-top: 1px solid #272727;
-	background-color: #161616;
+	border-top: 1px solid #5268e3;
+	background-color: #202D75;
 }
 ul.payment_logos {
 	width: 50%;
@@ -1979,7 +1981,8 @@ ul.payment_logos.two {
 	margin: 0px;
 	float: left;
 	padding: 20px 0px;
-	background-color: #2E2E2E;
+	background-color: #202d75;
+;
 }
 .copyrights .text2 {
 	float: right;
@@ -6888,7 +6891,7 @@ ul.icon_boxes_st3 {
 	padding: 0;
 	margin: 20px 0 0 0;
 	text-align:center;
-	background-color: #272727;
+	background-color: #d6d4d4;
 	border-right:1px solid #4b4b4b;
 	transition-property: background-color, color;
 	transition-duration: 0.3s;
@@ -6899,13 +6902,13 @@ ul.icon_boxes_st3 {
 	font-size: 30px;
 	font-weight: 600;
 	padding: 20px 0 20px 0;
-	color: #fff;
+	color: black;
 	text-align: center;
 	margin: 0px 0 10px 0;
 	border-bottom: 1px solid #4b4b4b;
 }
 .section_holder33 .price_table .price {
-	color: #fff;
+	color: black;
 	font-size: 45px;
 	font-weight: bold;
 	line-height: 45px;
@@ -6931,7 +6934,7 @@ ul.icon_boxes_st3 {
 }
 .section_holder33 ul.plan_features li {
 	width: 70%;
-	color: #a9a9a9;
+	color: black;
 	text-align: center;
 	padding: 8px 0;
 	margin: 0 auto;
@@ -7259,4 +7262,75 @@ section_holder33 .custom-select3:after {
 }
 .section_holder40 .services_box.active .icon {
 	color: #fff;
+}
+
+/*section 38*/
+.section_holder38 {
+	width: 100%;
+	float: left;
+	padding:70px 0 70px 0;
+	margin:0;
+}
+.section_holder38 .text_holder{
+	width: 100%;
+	float: left;
+	padding:10px;
+	margin:0;
+	background-color:#fff;
+	transition-property: background-color, color;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-out;
+}
+.section_holder38 .text_holder .icon{
+	width: 15%;
+	float: left;
+	font-size:28px;
+	padding:10px;
+	margin:0;
+}
+.section_holder38 .text_holder .text{
+	width: 85%;
+	float: right;
+	padding:10px;
+	margin:0;
+}
+.section_holder38 .text_holder .icon .arrow{
+	width:32px;
+	height:37px;
+	float: left;
+	padding:0;
+	margin:10px 0 0 -5px;
+	background:url(../images/site-img73.png) 0 0 no-repeat;
+}
+/*hover styles*/
+.section_holder38 .text_holder:hover{
+	background-color:#202D75;
+	transition-property: background-color, color;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-out;
+}
+.section_holder38 .text_holder:hover .icon{
+	color:#fff;
+}
+.section_holder38 .text_holder:hover .text, .section_holder38 .text_holder:hover h4{
+	color:#fff;
+}
+.section_holder38 .text_holder:hover .icon .arrow{
+	display:none;
+}
+/*active styles*/
+.section_holder38 .text_holder.active{
+	background-color:#202D75;
+	transition-property: background-color, color;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-out;
+}
+.section_holder38 .text_holder.active .icon{
+	color:#fff;
+}
+.section_holder38 .text_holder.active .text, .section_holder38 .text_holder.active h4{
+	color:#fff;
+}
+.section_holder38 .text_holder.active .icon .arrow{
+	display:none;
 }
