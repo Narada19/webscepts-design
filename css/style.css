@@ -129,6 +129,7 @@
 	margin-top: 13px;
 	position: relative;
 	text-indent: -999em;
+	/* background: url(../images/logo.png) no-repeat left bottom; */
 	background: url(../images/logo.png) no-repeat left bottom;
 }
 /* header area adinationals */
@@ -1372,7 +1373,9 @@ label.custom-select3 {
 	color: #fff;
 	border-radius: 100%;
 	margin: 0 0px 6px 0;
-	background-color: #161616;
+	background-color: #c9c9c9;
+	border: #202d75 1px solid;
+	/* background-color: #161616; */
 }
 /*hover styles*/
 .section_holder5 .cont_holder:hover .icon {
@@ -1645,7 +1648,7 @@ label.custom-select3 {
 	padding: 10px;
 	margin: 0;
 	border-radius: 100%;
-	background-color: #161616;
+	background-color: #7a7a7a;
 	transition-property: background-color, color;
 	transition-duration: 0.3s;
 	transition-timing-function: ease-out;
@@ -1669,16 +1672,17 @@ label.custom-select3 {
 	padding: 0px;
 	margin: 0;
 	border-radius: 100%;
-	background: url(../images/site-img9.jpg) 0 0 no-repeat;
+	/* background: url(../images/site-img9.jpg) 0 0 no-repeat; */
+	background: url(../images/user-1.png) 0 0 no-repeat;
 }
 .section_holder7 .clint_holder .img.two {
-	background: url(../images/site-img10.jpg) 0 0 no-repeat;
+	background: url(../images/user-2.png) 0 0 no-repeat;
 }
 .section_holder7 .clint_holder .img.three {
-	background: url(../images/site-img11.jpg) 0 0 no-repeat;
+	background: url(../images/user-1.png) 0 0 no-repeat;
 }
 .section_holder7 .clint_holder .img.four {
-	background: url(../images/site-img12.jpg) 0 0 no-repeat;
+	background: url(../images/user-2.png) 0 0 no-repeat;
 }
 .section_holder7 .clint_holder .text {
 	width: 68%;
@@ -1759,7 +1763,7 @@ label.custom-select3 {
 }
 /*active styles*/
 .section_holder8 .affiliates.active .icon {
-	background-color: #161616;
+	background-color: #c9c9c9;
 	transition-property: background-color, color;
 	transition-duration: 0.3s;
 	transition-timing-function: ease-out;

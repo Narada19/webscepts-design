@@ -1022,7 +1022,7 @@ border-style:none;
 	font-size:18px;
 	color:#fff;
 	border-radius:50%;
-	background-color:#92d102;
+	background-color:#202D75;
 	}	
 
 .tp-caption.offerbadge.two{
@@ -1089,7 +1089,7 @@ border-style:none;
 }
 
 .tp-caption.text2 span {
-	color:#92d102;
+	color:#202D75;
 }
 
 .tp-caption.text3 {
@@ -1141,7 +1141,7 @@ border-style:none;
 .tp-caption.text7 {
 	position:absolute;
 	font-family: 'Roboto', sans-serif;
-	color:#92d120;
+	color:#202D75;
 	font-size: 60px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -1180,7 +1180,7 @@ border-style:none;
 	padding:0px;
 	font-size:15px;
 	font-weight:normal;
-	color:#92d102;
+	color:#202D75;
 	text-align:left;
 	}
 .tp-caption.tld_step{
@@ -1193,7 +1193,7 @@ border-style:none;
 	font-weight:normal;
 	color:#fff;
 	text-align: center;
-	background-color:#92d102;
+	background-color:#202D75;
 	}
 
 
@@ -1224,7 +1224,7 @@ border-style:none;
 	text-align: center;
 	text-transform: uppercase;
 	padding: 10px 25px;
-	background-color:#92d102;
+	background-color:#202D75;
 }
 .tp-caption.slider_but1 a:hover {
 	color:#272727;
