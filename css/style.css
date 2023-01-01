@@ -125,12 +125,12 @@
 	float: left;
 	display: block;
 	width: 100%;
-	min-height: 45px;
+	min-height: 80px;
 	margin-top: 13px;
 	position: relative;
 	text-indent: -999em;
 	/* background: url(../images/logo.png) no-repeat left bottom; */
-	background: url(../images/logo.png) no-repeat left bottom;
+	background: url(../images/w.png) no-repeat left bottom;
 }
 /* header area adinationals */
 .logo {
@@ -280,6 +280,19 @@
 .dropdown span.value {
 	display: none;
 }
+
+.section_holder6 .why_choose_img .img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 100%;
+    background: url(../images/site-img6.jpg) 0 0 no-repeat;
+    z-index: 2;
+}
+
 .dropdown dd ul li a {
 	padding: 5px;
 	display: block;
@@ -6801,7 +6814,7 @@ ul.icon_boxes_st3 {
 	text-align: center;
 	padding: 8px 30px;
 	margin: 0 0px 25px 0px;
-	background-color: #fe7e20;
+	background-color: #202d75;
 }
 .section_holder33.two .plan_info .singup_button {
 	color: #fff;
@@ -6849,7 +6862,6 @@ ul.icon_boxes_st3 {
 }
 .section_holder33.two {
 	background-color:#fff;
-	padding: 70px 0 70px 0;
 }
 .lt_title_line {
     height: 3px;
@@ -7079,21 +7091,21 @@ section_holder33 .custom-select3:after {
 	border-bottom: 1px solid #455cde;
 }
 .section_holder33 .price_table:hover {
-	background-color: #202D75;
+	background-color: #91080d;
 	padding:0 0;
 	margin: 20px 0 0 0;
 }
 .section_holder33 .price_table:hover .title {
 	color: #fff;
-	border-bottom: 1px solid #455cde;
+	border-bottom: 1px solid white;
 }
 .section_holder33 .price_table:hover .price {
 	color: #fff;
-	border-bottom: 1px solid #455cde;
+	border-bottom: 1px solid white;
 }
 .section_holder33 .price_table:hover .plan_features li {
 	color: #fff;
-	border-bottom: 1px solid #455cde;
+	border-bottom: 1px solid white;
 }
 .section_holder33 .price_table:hover .singup_button {
 	color: #272727;
@@ -7119,21 +7131,21 @@ section_holder33 .custom-select3:after {
 }
 .section_holder33 .price_table.active {
 	position:relative;
-	background-color: #202D75;
+	background-color: #91080d;
 	padding:20px 0;
 	margin: 0 0 0 0;
 }
 .section_holder33 .price_table.active .title {
 	color: #fff;
-	border-bottom: 1px solid #455cde;
+	border-bottom: 1px solid white;
 }
 .section_holder33 .price_table.active .price {
 	color: #fff;
-	border-bottom: 1px solid #455cde;
+	border-bottom: 1px solid white;
 }
 .section_holder33 .price_table.active .plan_features li {
 	color: #fff;
-	border-bottom: 1px solid #455cde;
+	border-bottom: 1px solid white;
 }
 .section_holder33 .price_table.active .singup_button {
 	color: #272727;
