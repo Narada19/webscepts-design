@@ -318,12 +318,14 @@
 /*domain search top*/
 
 .domain_search_home {
-	width: 100%;
-	float: left;
-	padding: 25px 0;
-	margin: 0px;
-	background-color: #202d75;
+    width: 100%;
+    float: left;
+    padding: 25px 0px 2px 2px;
+    margin: 0px 0px -23px;
+    background-color: #202d75;
 }
+
+
 .domain_search_home #domain-searchform #dsearch {
 	background-color: #fff;
 	border: 1px solid #202d75;
@@ -6716,7 +6718,7 @@ ul.icon_boxes_st3 {
 
 .section_holder33.two {
 	background-color:#fff;
-	padding: 70px 0 70px 0;
+	padding: 16px 0 70px 0;
 }
 
 .lt_title_big{

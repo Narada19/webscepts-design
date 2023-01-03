@@ -116,37 +116,12 @@
     <script defer src="./js/app.js"></script>
     <script defer src="./js/transformY.js"></script>
 
-    <!-- Remove the below comments to use your color option -->
-    <!--<link rel="stylesheet" href="css/colors/green.css" />-->
-    <!--<link rel="stylesheet" href="css/colors/red.css" />-->
-    <!--<link rel="stylesheet" href="css/colors/green.css" />-->
-    <!--<link rel="stylesheet" href="css/colors/cyan.css" />-->
-    <!--<link rel="stylesheet" href="css/colors/orange.css" />-->
-    <!--<link rel="stylesheet" href="css/colors/liteblue.css" />-->
-    <!--<link rel="stylesheet" href="css/colors/purple.css" />-->
-    <!--<link rel="stylesheet" href="css/colors/bridge.css" />-->
-    <!--<link rel="stylesheet" href="css/colors/grey.css" />-->
-    <!--<link rel="stylesheet" href="css/colors/darkred.css" />-->
 
-    <!-- just remove the below comments witch bg patterns you want to use -->
-    <!--<link rel="stylesheet" href="css/bg-patterns/pattern-default.css" />-->
-    <!--<link rel="stylesheet" href="css/bg-patterns/pattern-one.css" />-->
-    <!--<link rel="stylesheet" href="css/bg-patterns/pattern-two.css" />-->
-    <!--<link rel="stylesheet" href="css/bg-patterns/pattern-three.css" />-->
-    <!--<link rel="stylesheet" href="css/bg-patterns/pattern-four.css" />-->
-    <!--<link rel="stylesheet" href="css/bg-patterns/pattern-five.css" />-->
-    <!--<link rel="stylesheet" href="css/bg-patterns/pattern-six.css" />-->
-    <!--<link rel="stylesheet" href="css/bg-patterns/pattern-seven.css" />-->
-    <!--<link rel="stylesheet" href="css/bg-patterns/pattern-eight.css" />-->
-    <!--<link rel="stylesheet" href="css/bg-patterns/pattern-nine.css" />-->
-    <!--<link rel="stylesheet" href="css/bg-patterns/pattern-ten.css" />-->
-    <!--<link rel="stylesheet" href="css/bg-patterns/pattern-eleven.css" />-->
-    <!--<link rel="stylesheet" href="css/bg-patterns/pattern-twelve.css" />-->
   </head>
 
   <body>
     <div class="site_wrapper">
-      <header id="header">
+      <header id="header" style="height: 198px;">
         <!-- Top header bar -->
         <div id="topHeader">
           <div class="wrapper">
@@ -319,17 +294,17 @@
       <div class="domain_search_home">
         <div class="container">
           <div class="one_half">
+            <ul class="tld_list">
+              <li class="title">Top Domains</li>
+              <li class="one">.com <span>$11.99</span></li>
+              <li class="two">.org <span>$11.99</span></li>
+              <li class="three">.net <span>$10.99</span></li>
+            </ul>
+          </div>
+          <div class="one_half last">
             <form method="get" id="domain-searchform" action="blog.html">
               <div>
-                <input
-                  class="input-text"
-                  name="dsearch"
-                  id="dsearch"
-                  value="Enter your Domain Name here..."
-                  onFocus="if (this.value == 'Enter your Domain Name here...') {this.value = '';}"
-                  onBlur="if (this.value == '') {this.value = 'Enter your Domain Name here...';}"
-                  type="text"
-                />
+                <input class="input-text" name="dsearch" id="dsearch" value="Enter your Domain Name here..." onfocus="if (this.value == 'Enter your Domain Name here...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter your Domain Name here...';}" type="text">
                 <select class="drlist">
                   <option value=".com">.com</option>
                   <option value=".co">.co</option>
@@ -341,18 +316,9 @@
                   <option value=".mobi">.mobi</option>
                   <option value=".info">.info</option>
                 </select>
-                <input id="searchsubmit" value="Search" type="submit" />
+                <input id="searchsubmit" value="Search" type="submit">
               </div>
             </form>
-          </div>
-
-          <div class="one_half last">
-            <ul class="tld_list">
-              <li class="title">Top Domains</li>
-              <li>.com <span>$11.99</span></li>
-              <li>.org <span>$11.99</span></li>
-              <li>.net <span>$10.99</span></li>
-            </ul>
           </div>
         </div>
       </div>
@@ -1012,76 +978,35 @@
         </div>
       </div>
       <!--end slider-->
-      <hr style="border: 5px solid #202d75;">
 
-    
+      <div class="flexslider carousel">
+        <ul class="slides">
+          <li>
+            <img src="slide1.jpg" />
+          </li>
+          <li>
+            <img src="slide2.jpg" />
+          </li>
+          <li>
+            <img src="slide3.jpg" />
+          </li>
+          <li>
+            <img src="slide4.jpg" />
+          </li>
+          <!-- items mirrored twice, total of 12 -->
+        </ul>
+      </div>
 
       <!-- WELCOME SECTION -->
       <div class="clearfix"></div>
-      <div class="section_holder1">
-        <div class="container">
-          <div class="section_title">
-            <h3 class="small unvisible">Welcome to</h3>
-            <br />
-            <br />
-            <h1 class="big unvisible">Webscept<span>s</span></h1>
-          </div>
+    
 
-          <div class="section_subtext unvisible">
-            <p>
-            </p>
-          </div>
-
-          <div class="clearfix"></div>
-          <div class="section_title_line"></div>
-
-          <div class="box on">
-            <div class="arrow_up"></div>
-            <p>STARTING AT</p>
-            <h1 class="white padd_top1 bold">$16.99</h1>
-            <h3 class="white uppercase">Reseller Hosting</h3>
-            <p>
-              Reseller hosting lets you sell hosting packages relevant to affiliate marketing  in where we give change users to sell hosting to other clients this customize according to user view
-            </p>
-            <div class="arrow_down"></div>
-          </div>
-          <!--end item-->
-
-          <div class="box two on">
-            <div class="arrow_up two"></div>
-            <p>STARTING AT</p>
-            <h1 class="white padd_top1 bold">$14.99</h1>
-            <h3 class="white uppercase">VPS Hosting</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer sit adipiscing elit
-              Suspendisse et
-            </p>
-            <div class="arrow_down two"></div>
-          </div>
-          <!--end item-->
-
-          <div class="box three on">
-            <div class="arrow_up three"></div>
-            <p>STARTING AT</p>
-            <h1 class="white padd_top1 bold">$104</h1>
-            <h3 class="white uppercase">Dedicated Servers</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer sit adipiscing elit
-              Suspendisse et
-            </p>
-            <div class="arrow_down three"></div>
-          </div>
-          <!--end item-->
-        </div>
-      </div>
       <!-- end section 1-->
 
      
       <div class="section_holder33 two">
         <div class="container">
-          <h1 class="lt_title_big">Our <span>Plans</span></h1>
-          <div class="cl_title_line"></div>
-          <p class="lt_title_bottomtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue</p>
+        
           <div class="price_table_holder">
             <div class="price_table">
               <div class="plan_info">
@@ -1095,22 +1020,7 @@
                   <li>PHP Latest Version</li>
                   <li>WordPress Supported</li>
                   <li>99.99% Uptime</li>
-                  <!--<li>
-                    <p class="padd_bot1">Select duration:</p>
-                    <div class="dropbox_holder3">
-                      <label class="custom-select3">
-                        <select>
-                          <option>1 Month &nbsp; $ 9.99/ Month</option>
-                          <option>3 Month &nbsp; $ 4.99/ Month</option>
-                          <option>6 Months &nbsp; $ 4.99/ Month</option>
-                          <option>12 Months &nbsp; $ 4.99/ Month</option>
-                          <option>24 Months &nbsp; $ 4.99/ Month</option>
-                          <option>36 Months &nbsp; $ 4.99/ Month</option>
-                          <option>60 Months &nbsp; $ 4.99/ Month</option>
-                        </select>
-                      </label>
-                    </div>
-                  </li>-->
+               
                 </ul>
                 <div class="margin_top3"></div>
                 <a class="singup_but" href="./shared-hosting-plan.html">Order Now</a> </div>
@@ -1134,22 +1044,7 @@
                   <li>PHP Latest Version</li>
                   <li>WordPress Supported</li>
                   <li>99.99% Uptime</li>
-                  <!--<li>
-                    <p class="padd_bot1">Select duration:</p>
-                    <div class="dropbox_holder3">
-                      <label class="custom-select3">
-                        <select>
-                          <option>3 Month &nbsp; $ 29.99/ Month</option>
-                          <option>3 Month &nbsp; $ 4.99/ Month</option>
-                          <option>6 Months &nbsp; $ 4.99/ Month</option>
-                          <option>12 Months &nbsp; $ 4.99/ Month</option>
-                          <option>24 Months &nbsp; $ 4.99/ Month</option>
-                          <option>36 Months &nbsp; $ 4.99/ Month</option>
-                          <option>60 Months &nbsp; $ 4.99/ Month</option>
-                        </select>
-                      </label>
-                    </div>
-                  </li>-->
+         
                 </ul>
                 <div class="margin_top3"></div>
                 <a class="singup_but" href="./business-hosting-plan.html">Order Now</a> </div>
@@ -1176,22 +1071,7 @@
                   <li>1Gbps Uplink</li>
                   <li>Unlimited Reinstalls</li>
                   <li>DDoS Protected</li>
-                  <!--<li>
-                    <p class="padd_bot1">Select duration:</p>
-                    <div class="dropbox_holder3">
-                      <label class="custom-select3">
-                        <select>
-                          <option>1 Year &nbsp; $ 39.99/ Month</option>
-                          <option>3 Month &nbsp; $ 4.99/ Month</option>
-                          <option>6 Months &nbsp; $ 4.99/ Month</option>
-                          <option>12 Months &nbsp; $ 4.99/ Month</option>
-                          <option>24 Months &nbsp; $ 4.99/ Month</option>
-                          <option>36 Months &nbsp; $ 4.99/ Month</option>
-                          <option>60 Months &nbsp; $ 4.99/ Month</option>
-                        </select>
-                      </label>
-                    </div>
-                  </li>-->
+                
                 </ul>
                 <div class="margin_top3"></div>
                 <a class="singup_but" href="./linux-vps-plan.html">Order Now</a> </div>
@@ -1214,22 +1094,7 @@
             <li>FREE SSL (Lifetime)</li>
             <li>FREE Backup Servers</li>
             <li>99.99% Uptime</li>
-                  <!--<li>
-                    <p class="padd_bot1">Select duration:</p>
-                    <div class="dropbox_holder3">
-                      <label class="custom-select3">
-                        <select>
-                          <option>2 Years &nbsp; $ 69.99/ Month</option>
-                          <option>3 Month &nbsp; $ 4.99/ Month</option>
-                          <option>6 Months &nbsp; $ 4.99/ Month</option>
-                          <option>12 Months &nbsp; $ 4.99/ Month</option>
-                          <option>24 Months &nbsp; $ 4.99/ Month</option>
-                          <option>36 Months &nbsp; $ 4.99/ Month</option>
-                          <option>60 Months &nbsp; $ 4.99/ Month</option>
-                        </select>
-                      </label>
-                    </div>
-                  </li>-->
+                 
                 </ul>
                 <div class="margin_top3"></div>
                 <a class="singup_but" href="./enterprise-class-plan.html">Order Now</a> </div>
@@ -1258,22 +1123,7 @@
                   <li>Private Nameservers</li>
                   <li>LiteSpeed Server</li>
                   <li>Priority Supports</li>
-                  <!--<li>
-                    <p class="padd_bot1">Select duration:</p>
-                    <div class="dropbox_holder3">
-                      <label class="custom-select3">
-                        <select>
-                          <option>1 Month &nbsp; $ 9.99/ Month</option>
-                          <option>3 Month &nbsp; $ 4.99/ Month</option>
-                          <option>6 Months &nbsp; $ 4.99/ Month</option>
-                          <option>12 Months &nbsp; $ 4.99/ Month</option>
-                          <option>24 Months &nbsp; $ 4.99/ Month</option>
-                          <option>36 Months &nbsp; $ 4.99/ Month</option>
-                          <option>60 Months &nbsp; $ 4.99/ Month</option>
-                        </select>
-                      </label>
-                    </div>
-                  </li>-->
+                 
                 </ul>
                 <div class="margin_top3"></div>
                 <a class="singup_but" href="./budget-reseller-plan.html">Order Now</a> </div>
@@ -1285,300 +1135,7 @@
           <!--end item-->
           
         
-             <!-- OUR PLANS SECTION -->
-      <div class="clearfix two"></div>
-      <br><br> 
-      <div class="section_holder5">
-        <div class="container">
-          <div class="section_title unvisible">
-            <h3 class="small">our plans</h3>
-            <br />
-            <br />
-            <h1 class="big">include<span>d</span></h1>
-
-            <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 400%; transition-duration: 0s; transform: translate3d(-562px, 0px, 0px);">
-              <li style="width: 562px; float: left; display: block;">
-                <div class="one_third">
-                  <div class="why_choose_img"> <a href="#">
-                    <div class="overley"></div>
-                    <div class="img"></div>
-                    </a> </div>
-                  <a href="#">
-                  <h5 class="white lessmar">Fast Hosting</h5>
-                  </a>
-                  <p class="white">Lorem ipsum dolor sit amet, consectetuer sit et justo adipiscing.</p>
-                </div>
-                <!--end item-->
-                
-                <div class="one_third">
-                  <div class="why_choose_img"> <a href="#">
-                    <div class="overley"></div>
-                    <div class="img two"></div>
-                    </a> </div>
-                  <a href="#">
-                  <h5 class="white lessmar">Manage Websites</h5>
-                  </a>
-                  <p class="white">Lorem ipsum dolor sit amet, consectetuer sit et justo adipiscing.</p>
-                </div>
-                <!--end item-->
-                
-                <div class="one_third last">
-                  <div class="why_choose_img"> <a href="#">
-                    <div class="overley"></div>
-                    <div class="img three"></div>
-                    </a> </div>
-                  <a href="#">
-                  <h5 class="white lessmar">Expert Support</h5>
-                  </a>
-                  <p class="white">Lorem ipsum dolor sit amet, consectetuer sit et justo adipiscing.</p>
-                </div>
-                <!--end item--> 
-                
-              </li>
-              <!--end item-->
-              
-              <li style="width: 562px; float: left; display: block;">
-                <div class="one_third">
-                  <div class="why_choose_img"> <a href="#">
-                    <div class="overley"></div>
-                    <div class="img"></div>
-                    </a> </div>
-                  <a href="#">
-                  <h5 class="white lessmar">Fast Hosting</h5>
-                  </a>
-                  <p class="white">Lorem ipsum dolor sit amet, consectetuer sit et justo adipiscing.</p>
-                </div>
-                <!--end item-->
-                
-                <div class="one_third">
-                  <div class="why_choose_img"> <a href="#">
-                    <div class="overley"></div>
-                    <div class="img two"></div>
-                    </a> </div>
-                  <a href="#">
-                  <h5 class="white lessmar">Website Protection</h5>
-                  </a>
-                  <p class="white">Lorem ipsum dolor sit amet, consectetuer sit et justo adipiscing.</p>
-                </div>
-                <!--end item-->
-                
-                <div class="one_third last">
-                  <div class="why_choose_img"> <a href="#">
-                    <div class="overley"></div>
-                    <div class="img three"></div>
-                    </a> </div>
-                  <a href="#">
-                  <h5 class="white lessmar">Expert Support</h5>
-                  </a>
-                  <p class="white">Lorem ipsum dolor sit amet, consectetuer sit et justo adipiscing.</p>
-                </div>
-                <!--end item--> 
-              </li>
-              <!--end item-->
-            </ul></div>
-          </div>
-     
-          <div class="clearfix"></div>
-          <div class="section_title_line"></div>
-        
-         
-        </div>
-      </div>
-
-          
-
-          
-        </div>
-      </div>
-      <!-- FEATURES SECTION -->
-      <div class="clearfix"></div>
-      <div class="section_holder3">
-        <div class="container">
-          <div class="section_title on">
-            <h3 class="small">Our Excellent</h3>
-            <br />
-            <br />
-            <h1 class="big">Feature<span>s</span></h1>
-          </div>
-          <div class="section_subtext three unvisible">
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-              Suspendisse et justo. Praesent mattis commodo augue. Aliquam
-              ornare hendrerit augue dolor sit amet ipsum dolor sit amet ipsum
-              justo.
-            </p>
-          </div>
-          <div class="clearfix"></div>
-          <div class="section_title_line"></div>
-          <div class="left">
-            <section class="slider">
-              <div class="flexslider style2 unvisible">
-                <ul class="slides">
-                  <li>
-                    <div class="circle active">
-                      <span
-                        class="glyph-item mega"
-                        aria-hidden="true"
-                        data-icon="&#xe037;"
-                      ></span>
-                      <h4 class="white padd_top2">Web Hosting Features</h4>
-                      <p class="grey">
-                        Lorem ipsum dolor sit amet consectetuer adipiscing elit
-                        et justo Suspendisse et justo.
-                      </p>
-                    </div>
-                    <div class="circle">
-                      <span
-                        class="glyph-item mega"
-                        aria-hidden="true"
-                        data-icon="&#xe09a;"
-                      ></span>
-                      <h4 class="white padd_top2">Control Panel Features</h4>
-                      <p class="grey">
-                        We Provide you the best panel for you hosting needed 
-                      </p>
-                    </div>
-                  </li>
-                  <!--end item-->
-
-                  <li>
-                    <div class="circle active">
-                      <span
-                        class="glyph-item mega"
-                        aria-hidden="true"
-                        data-icon="&#xe037;"
-                      ></span>
-                      <h4 class="white padd_top2">Web Hosting Features</h4>
-                      <p class="grey">
-                        Lorem ipsum dolor sit amet consectetuer adipiscing elit
-                        et justo Suspendisse et justo.
-                      </p>
-                    </div>
-                    <div class="circle">
-                      <span
-                        class="glyph-item mega"
-                        aria-hidden="true"
-                        data-icon="&#xe09a;"
-                      ></span>
-                      <h4 class="white padd_top2">Control Panel Features</h4>
-                      <p class="grey">
-                        Lorem ipsum dolor sit amet consectetuer adipiscing elit
-                        et justo Suspendisse et justo.
-                      </p>
-                    </div>
-                  </li>
-                  <!--end item-->
-                </ul>
-              </div>
-            </section>
-          </div>
-          <!--end left-->
-
-          <div class="right on">
-            <div class="clearfix"></div>
-            <div class="margin_top2"></div>
-            <h5>
-              Lorem ipsum dolor sit amet
-              <span class="green">consectetuer</span> adipiscing elit.
-              Suspendisse et justo
-            </h5>
-            <ul class="list">
-              <li>
-                <i class="fa fa-check"></i> Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit.
-              </li>
-              <li>
-                <i class="fa fa-check"></i> commodo augue. Aliquam ornare
-                hendrerit augue. Cras tellus.
-              </li>
-              <li>
-                <i class="fa fa-check"></i> Nullam turpis. Cras dapibus, orci
-                rutrum adipiscing luctus.
-              </li>
-              <li>
-                <i class="fa fa-check"></i> Nullam turpis. Cras dapibus, orci
-                rutrum adipiscing luctus.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!--end section 3-->
-
-      <!-- CREATE YOUR WEBSITE SECTION -->
-      <div class="clearfix"></div>
-      <div class="section_holder4">
-        <div class="section_top_shape"></div>
-        <div class="container unvisible">
-          <div class="one_half">
-            <div class="section_title two">
-              <h3 class="small white">create your own</h3>
-              <br />
-              <br />
-              <h1 class="big white">Website</h1>
-            </div>
-            <div class="clearfix"></div>
-            <div class="section_title_line three"></div>
-            <p class="white">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-              Suspendisse et justo. Praesent mattis commodo augue. Aliquam
-              ornare hendrerit.
-            </p>
-            <ul class="icon">
-              <li class="on">
-                <a href="#"
-                  ><span
-                    class="glyph-item mega"
-                    aria-hidden="true"
-                    data-icon="&#xe00c;"
-                  ></span
-                ></a>
-                <br />
-                <h6 class="white">Pick a design</h6>
-              </li>
-              <li class="active on">
-                <a href="#"
-                  ><span
-                    class="glyph-item mega"
-                    aria-hidden="true"
-                    data-icon="&#xe076;"
-                  ></span
-                ></a>
-                <br />
-                <h6 class="white">Pick a design</h6>
-              </li>
-              <li class="on">
-                <a href="#"
-                  ><span
-                    class="glyph-item mega"
-                    aria-hidden="true"
-                    data-icon="&#xe037;"
-                  ></span
-                ></a>
-                <br />
-                <h6 class="white">Pick a design</h6>
-              </li>
-            </ul>
-            <a href="#" class="readmore_but1">View All Designs</a
-            ><a href="#" class="readmore_but2">Sign Up Now!</a>
-          </div>
-          <!--end left-->
-
-          <div class="one_half last">
-            <img src="https://placehold.it/650x500" alt="" class="img_size1" />
-          </div>
-        </div>
-        <div class="section_bottom_shape"></div>
-      </div>
-      <!--end section 4-->
-
-   
-
-   
-
-      <!--end section 5-->
-
-      <!-- WHAT WE OFFER SECTION -->
+         <!-- WHAT WE OFFER SECTION -->
       <div class="section_holder38">
         <div class="container">
           <h1 class="lt_title_big unvisible">What We <span>Offer</span></h1>
@@ -1781,488 +1338,198 @@
         </div>
       </div>
       <!--end section-->
+          
 
-      <!-- OUR CLIENTS SECTION -->
-      <div class="clearfix"></div>
-      <div class="section_holder7">
-        <div class="container">
-          <div class="section_title unvisible">
-            <h3 class="small">our clients</h3>
-            <br />
-            <br />
-            <h1 class="big">Say<span>s</span></h1>
-          </div>
-          <div class="section_subtext three unvisible">
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-              Suspendisse et justo. Praesent mattis commodo augue. Aliquam
-              ornare hendrerit augue dolor sit amet ipsum dolor sit amet ipsum
-              justo.
-            </p>
-          </div>
-          <div class="clearfix"></div>
-          <div class="section_title_line"></div>
-          <div class="clearfix"></div>
-          <div class="one_full">
-            <section class="slider">
-              <div class="flexslider style2">
-                <ul class="slides">
-                  <li>
-                    <div class="clint_holder">
-                      <div class="clint">
-                        <div class="img_holder active">
-                          <div class="img"></div>
-                        </div>
-                      </div>
-                      <div class="text">
-                        <h5 class="lessmar2">Michael Nicholas</h5>
-                        <span
-                          >Developer -
-                          <span class="green">Mediatricks</span></span
-                        >
-                        <p class="padd_top1">
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit et justo sit Suspendisse et justo. Praesent
-                          mattis.
-                        </p>
-                      </div>
-                    </div>
-                    <!--end clint-->
-
-                    <div class="clint_holder two">
-                      <div class="clint two">
-                        <div class="img_holder two">
-                          <div class="img two"></div>
-                        </div>
-                      </div>
-                      <div class="text two">
-                        <h5 class="lessmar2">Charlotte Oliver</h5>
-                        <span
-                          >Support -
-                          <span class="green">Mediatricks</span></span
-                        >
-                        <p class="padd_top1">
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit et justo sit Suspendisse et justo. Praesent
-                          mattis.
-                        </p>
-                      </div>
-                    </div>
-                    <!--end clint-->
-                  </li>
-                  <!--end item-->
-
-                  <li>
-                    <div class="clint_holder">
-                      <div class="clint">
-                        <div class="img_holder active">
-                          <div class="img three"></div>
-                        </div>
-                      </div>
-                      <div class="text">
-                        <h5 class="lessmar2">Michael Nicholas</h5>
-                        <span
-                          >Marketing -
-                          <span class="green">Mediatricks</span></span
-                        >
-                        <p class="padd_top1">
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit et justo sit Suspendisse et justo. Praesent
-                          mattis.
-                        </p>
-                      </div>
-                    </div>
-                    <!--end clint-->
-
-                    <div class="clint_holder two">
-                      <div class="clint two">
-                        <div class="img_holder two">
-                          <div class="img four"></div>
-                        </div>
-                      </div>
-                      <div class="text two">
-                        <h5 class="lessmar2">Madison Ryan</h5>
-                        <span
-                          >Designer -
-                          <span class="green">Mediatricks</span></span
-                        >
-                        <p class="padd_top1">
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit et justo sit Suspendisse et justo. Praesent
-                          mattis.
-                        </p>
-                      </div>
-                    </div>
-                    <!--end clint-->
-                  </li>
-                  <!--end item-->
-                </ul>
-              </div>
-            </section>
-          </div>
+          
         </div>
       </div>
-      <!--end section 7-->
+    
 
-      <!-- BUY NOW SECTION -->
+  
+      <!--end section 4-->
+
       <div class="clearfix"></div>
       <div class="punchtext">
         <div class="container unvisible">
           <div class="text">
-            <h4 class="white margin_top1">
-              Get Excellent Unique Web Hosting Layouts With Foxu
+            <h4 class="white margin_top1" style="text-align: center; font-size: 43px;">
+              About Webscept Solutions
             </h4>
           </div>
-          <div class="but"><a href="#" class="readmore_but2">Buy now!</a></div>
         </div>
       </div>
+
+      <div>
+
+      </div>
+
+
+      <div class="container">
+    
+        <div class="one_full">
+          <br>
+          <br>
+          <h2> Hosting Domains & Web Development| Cheap Best Web Hosting Provider Sri Lanka | Hosting Services 
+          </h2>
+          <p>A warm welcome to Webscept Solutions (Pvt) Ltd. If you are looking for reliable web hosting domain and Web Development based company, you are in the right place. We have a broad range of categories, including Linux Shared Hosting and Business Hosting, VPS, Dedicated Servers, Budget & Business Reseller packages, and LK Domains. You can choose the most suitable Web Hosting package from our broader selection of packages. To make things much easier for you, we accept payments via credit cards, PayPal, and online bank transfers. We instantly activate your domain name or hosting package after you complete the payment. PEEK Hosting (Pvt) Ltd is a leader in Web Hosting Industry of Sri Lanka, which means you get services from one of the BEST.
+
+          </p>
+          <br>
+          <p>
+            Since our establishment in Sri Lanka in 2013, we have served local and international clients, providing them with exceptional Web Hosting and Domains. We combine excellent customer service and support to stand out from the rest, and our online reviews and ratings prove our brilliance in the industry. We provide affordable, fast, and reliable for our customers as a leading and best Web Hosting Company in Sri Lanka. We support our clients through 24/7 support ticket service and phone support after-sales. All the Web Servers from the USA.
+          </p>
+
+        </div>
+
+        <div class="one_third last">
+          <div class="accrodation"> 
+            <!-- section 1 --> 
+            <span class="acc-trigger active" style="width: 343px;"><a href="#">Advantages</a></span>
+            <div class="acc-container" style="display: block; width: 343px;">
+              <div class="content"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commyolk augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Lorem ipsum dolor </div>
+            </div>
+            
+            <!-- section 3 --> 
+            <span class="acc-trigger" style="width: 343px;"><a href="#">Features</a></span>
+            <div class="acc-container" style="display: none; width: 343px;">
+              <div class="content"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commyolk augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Lorem ipsum dolor</div>
+            </div>
+            
+            <!-- section 5 --> 
+            <span class="acc-trigger" style="width: 343px;"><a href="#">Plans</a></span>
+            <div class="acc-container" style="display: none; width: 343px;">
+              <div class="content"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commyolk augue. Aliquam ornare hendrerit augue. </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+
+   
+
+      <!--end section 5-->
+
+
+      <div class="container">
+        <div class="last">
+          <h1 class="lt_title_big_left" style="text-align: center; ">Our <span>Clients</span></h1>
+          <div class="clearfix"></div>
+          <div class="cl_title_line_left two"></div>
+          <div class="clearfix"></div>
+          <section class="slider">
+            <div class="flexslider style6">
+              
+            <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 400%; transition-duration: 0s; transform: translate3d(-562px, 0px, 0px);">
+                <li style="width: 562px; float: left; display: block;"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> </li>
+                <li style="width: 562px; float: left; display: block;"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> <img src="https://placehold.it/175x60" alt="" draggable="false"> </li>
+              </ul></div><ol class="flex-control-nav flex-control-paging"><li><a class="">1</a></li><li><a class="flex-active">2</a></li></ol></div>
+          </section>
+        </div>
+  
+      </div>
+
+     
+      <div class="section_holder28 two">
+        <div class="container">
+          <h1 class="lt_title_big_left" style="text-align: center; " ><span>News</span></h1>
+
+          <div class="one_third">
+            <div class="post_holder">
+              <div class="date"> <span>03</span>oct, 2019 </div>
+              <div class="date comments"> <span><i class="fa fa-comment"></i></span> 15 </div>
+              <div class="post_img">
+                <div class="hover_box">
+                  <div class="box_inner"> <a href="#">
+                    <div class="icon"><i class="fa fa-search"></i></div>
+                    </a> <a href="#">
+                    <div class="icon last"><i class="fa fa-link"></i></div>
+                    </a> </div>
+                </div>
+                <img src="https://placehold.it/1000x1000" alt="" class="img_size1"> </div>
+              <div class="text_holder"> <a href="#">
+                <h4 class="uppercase">Nullam turpis Cras dapibus</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. sit dolor Praesent mattis</p>
+                <br>
+                <a class="readmore_but6" href="#">Read more</a> </div>
+            </div>
+            <!--end postholder--> 
+          </div>
+          <!--end item-->
+          
+          <div class="one_third">
+            <div class="post_holder">
+              <div class="date"> <span>03</span>oct, 2019 </div>
+              <div class="date comments"> <span><i class="fa fa-comment"></i></span> 15 </div>
+              <div class="post_img">
+                <div class="hover_box">
+                  <div class="box_inner"> <a href="#">
+                    <div class="icon"><i class="fa fa-search"></i></div>
+                    </a> <a href="#">
+                    <div class="icon last"><i class="fa fa-link"></i></div>
+                    </a> </div>
+                </div>
+                <img src="https://placehold.it/1000x1000" alt="" class="img_size1"> </div>
+              <div class="text_holder"> <a href="#">
+                <h4 class="uppercase">Nullam turpis Cras dapibus</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. sit dolor Praesent mattis</p>
+                <br>
+                <a class="readmore_but6" href="#">Read more</a> </div>
+            </div>
+            <!--end postholder--> 
+          </div>
+          <!--end item-->
+          
+          <div class="one_third last">
+            <div class="post_holder">
+              <div class="date"> <span>03</span>oct, 2019 </div>
+              <div class="date comments"> <span><i class="fa fa-comment"></i></span> 15 </div>
+              <div class="post_img">
+                <div class="hover_box">
+                  <div class="box_inner"> <a href="#">
+                    <div class="icon"><i class="fa fa-search"></i></div>
+                    </a> <a href="#">
+                    <div class="icon last"><i class="fa fa-link"></i></div>
+                    </a> </div>
+                </div>
+                <img src="https://placehold.it/1000x1000" alt="" class="img_size1"> </div>
+              <div class="text_holder"> <a href="#">
+                <h4 class="uppercase">Nullam turpis Cras dapibus</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. sit dolor Praesent mattis</p>
+                <br>
+                <a class="readmore_but6" href="#">Read more</a> </div>
+            </div>
+            <!--end postholder--> 
+          </div>
+          <!--end item-->
+          
+      
+          
+       
+          
+        
+      </div>
+      
+
+      <!-- BUY NOW SECTION -->
+     
       <!--end punch text-->
 
-      <!-- AFFILIATE PROGRAM SECTION -->
-      <div class="clearfix"></div>
-      <div class="section_holder8">
-        <div class="container">
-          <div class="one_third unvisible">
-            <ul class="tabs3">
-              <li>
-                <a href="#example-3-tab-1" target="_self">What's Included? </a>
-              </li>
-              <li>
-                <a class="last" href="#example-3-tab-2" target="_self"
-                  >Transfer Your Site</a
-                >
-              </li>
-            </ul>
-            <div class="tabs-content3">
-              <div id="example-3-tab-1" class="tabs-panel3">
-                <ul class="tablist">
-                  <li><i class="fa fa-check"></i> Unlimited disk space</li>
-                  <li><i class="fa fa-check"></i> Unlimited bandwidth</li>
-                  <li><i class="fa fa-check"></i> Host unlimited domains</li>
-                  <li><i class="fa fa-check"></i> Free domain registration</li>
-                  <li>
-                    <i class="fa fa-check"></i> Free SiteLock security suite (a
-                    $120 value)
-                  </li>
-                  <li><i class="fa fa-check"></i> Unlimited bandwidth</li>
-                </ul>
-                <a href="#" class="readmore_but3">Sign Up Now</a>
-              </div>
-              <!-- end tab 1 -->
 
-              <div id="example-3-tab-2" class="tabs-panel3">
-                <ul class="tablist">
-                  <li><i class="fa fa-check"></i> Unlimited disk space</li>
-                  <li><i class="fa fa-check"></i> Unlimited bandwidth</li>
-                  <li><i class="fa fa-check"></i> Host unlimited domains</li>
-                  <li><i class="fa fa-check"></i> Free domain registration</li>
-                  <li>
-                    <i class="fa fa-check"></i> Free SiteLock security suite (a
-                    $120 value)
-                  </li>
-                  <li><i class="fa fa-check"></i> Unlimited bandwidth</li>
-                </ul>
-                <a href="#" class="readmore_but3">Sign Up Now</a>
-              </div>
-              <!-- end tab 2 -->
-            </div>
-            <!-- end all tabs -->
-          </div>
-          <div class="one_third unvisible">
-            <h4 class="padd_bot2">Affiliate Program</h4>
-            <div class="affiliates">
-              <div class="icon">
-                <span
-                  class="glyph-item mega"
-                  aria-hidden="true"
-                  data-icon="&#xe060;"
-                ></span>
-              </div>
-              <div class="text">
-                <h6 class="lessmar2">Sign Up</h6>
-                <p>
-                  Lorem ipsum dolor sit amet sit et justo consectetuer
-                  adipiscing elit.
-                </p>
-              </div>
-            </div>
-            <!--end item-->
+     
 
-            <div class="affiliates active">
-              <div class="icon">
-                <span
-                  class="glyph-item mega"
-                  aria-hidden="true"
-                  data-icon="&#xe001;"
-                ></span>
-              </div>
-              <div class="text">
-                <h6 class="lessmar2">Refer Customers</h6>
-                <p>
-                  Lorem ipsum dolor sit amet sit et justo consectetuer
-                  adipiscing elit.
-                </p>
-              </div>
-            </div>
-            <!--end item-->
-
-            <div class="affiliates">
-              <div class="icon">
-                <span
-                  class="glyph-item mega"
-                  aria-hidden="true"
-                  data-icon="&#xe06b;"
-                ></span>
-              </div>
-              <div class="text">
-                <h6 class="lessmar2">Earn Money</h6>
-                <p>
-                  Lorem ipsum dolor sit amet sit et justo consectetuer
-                  adipiscing elit.
-                </p>
-              </div>
-            </div>
-            <!--end item-->
-          </div>
-          <!--end affiliates-->
-
-          <div class="one_third last unvisible">
-            <div class="accrodation">
-              <!-- section 1 -->
-              <span class="acc-trigger active"><a href="#">Advantages</a></span>
-              <div class="acc-container">
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Suspendisse et justo. Praesent mattis commyolk augue. Aliquam
-                  ornare hendrerit augue. Cras tellus. In pulvinar lectus a est.
-                  Curabitur eget orci. Cras laoreet ligula. Etiam sit amet
-                  dolor. Lorem ipsum dolor
-                </div>
-              </div>
-
-              <!-- section 3 -->
-              <span class="acc-trigger"><a href="#">Features</a></span>
-              <div class="acc-container">
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Suspendisse et justo. Praesent mattis commyolk augue. Aliquam
-                  ornare hendrerit augue. Cras tellus. In pulvinar lectus a est.
-                  Curabitur eget orci. Cras laoreet ligula. Etiam sit amet
-                  dolor. Lorem ipsum dolor
-                </div>
-              </div>
-
-              <!-- section 5 -->
-              <span class="acc-trigger"><a href="#">Plans</a></span>
-              <div class="acc-container">
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Suspendisse et justo. Praesent mattis commyolk augue. Aliquam
-                  ornare hendrerit augue.
-                </div>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
       <!--end section 8-->
 
-      <!-- CLIENTS SECTION -->
-      <div class="clearfix"></div>
-      <div class="section_holder9">
-        <div class="clints_section_topshape"></div>
-        <div class="container">
-          <h3 class="white lessmar unvisible">Our Clients</h3>
-          <div class="section_title_line four"></div>
-          <div class="clearfix"></div>
-          <section class="slider">
-            <div class="flexslider style4 carousel">
-              <ul class="slides">
-                <li>
-                  <div class="clint_logo">
-                    <div class="hover_line"></div>
-                    <img src="./images/google.png" alt="google-logo" />
-                  </div>
-                </li>
-                <li>
-                  <div class="clint_logo">
-                    <div class="hover_line"></div>
-                    <img src="./images/huawei.png" alt="huawei-logo" />
-                  </div>
-                </li>
-                <li>
-                  <div class="clint_logo">
-                    <div class="hover_line"></div>
-                    <img src="./images/lg.png" alt="lg-logo" />
-                  </div>
-                </li>
-                <li>
-                  <div class="clint_logo">
-                    <div class="hover_line"></div>
-                    <img src="./images/toyota.png" alt="toyota-logo" />
-                  </div>
-                </li>
-                <li>
-                  <div class="clint_logo">
-                    <div class="hover_line"></div>
-                    <img src="./images/samsung.png" alt="samsung-logo" />
-                  </div>
-                </li>
-                <li>
-                  <div class="clint_logo">
-                    <div class="hover_line"></div>
-                    <img src="./images/realme.png" alt="realme-logo" />
-                  </div>
-                </li>
-                <li>
-                  <div class="clint_logo">
-                    <div class="hover_line"></div>
-                    <img src="./images/google.png" alt="google-logo" />
-                  </div>
-                </li>
-                <li>
-                  <div class="clint_logo">
-                    <div class="hover_line"></div>
-                    <img src="./images/huawei.png" alt="huawei-logo" />
-                  </div>
-                </li>
-                <li>
-                  <div class="clint_logo">
-                    <div class="hover_line"></div>
-                    <img src="./images/lg.png" alt="lg-logo" />
-                  </div>
-                </li>
-                <li>
-                  <div class="clint_logo">
-                    <div class="hover_line"></div>
-                    <img src="./images/toyota.png" alt="toyota-logo" />
-                  </div>
-                </li>
-                <li>
-                  <div class="clint_logo">
-                    <div class="hover_line"></div>
-                    <img src="./images/samsung.png" alt="samsung-logo" />
-                  </div>
-                </li>
-                <li>
-                  <div class="clint_logo">
-                    <div class="hover_line"></div>
-                    <img src="./images/realme.png" alt="realme-logo" />
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </section>
-        </div>
-      </div>
+   
       <!--end section 9-->
       <div class="clearfix"></div>
-      <div class="footer1">
-        <div class="social_links">
-          <div class="container">
-            <ul class="social_icons">
-              <li>
-                <a target="_blank" href="https://www.facebook.com/codelayers"
-                  ><i class="fa fa-facebook"></i
-                ></a>
-              </li>
-              <li class="active">
-                <a target="_blank" href="https://twitter.com/codelayers"
-                  ><i class="fa fa-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="container">
-          <div class="one_fourth">
-            <h4 class="white">About Foxu</h4>
-            <div class="footer_title_line"></div>
-            <ul class="quick_links">
-              <li><a href="#">About US</a></li>
-              <li><a href="#">Contact US</a></li>
-              <li><a href="#">Hosting Plans</a></li>
-              <li><a href="#">Affliates</a></li>
-              <li><a href="#">Our History</a></li>
-            </ul>
-            <div class="newsletter">
-              <p class="padd_bot1 margin_top1">Sign up for special offers</p>
-              <form method="get" action="index.html">
-                <input
-                  class="email_input"
-                  name="samplees"
-                  id="samplees"
-                  value="E-mail Address"
-                  onFocus="if(this.value == 'E-mail Address') {this.value = '';}"
-                  onBlur="if (this.value == '') {this.value = 'E-mail Address';}"
-                  type="text"
-                />
-                <input
-                  name=""
-                  value="Submit"
-                  class="email_submit"
-                  type="submit"
-                />
-              </form>
-            </div>
-          </div>
-          <!--end about foxu-->
-
-          <div class="one_fourth">
-            <h4 class="white">Products & Services</h4>
-            <div class="footer_title_line"></div>
-            <ul class="quick_links">
-              <li><a href="#">Website Management</a></li>
-              <li><a href="#">Domain Services</a></li>
-              <li><a href="#">Email Services</a></li>
-              <li><a href="#">E-Commerce Services</a></li>
-              <li><a href="#">Scripting & Add-ons</a></li>
-              <li><a href="#">Marketing Services</a></li>
-              <li><a href="#">E-Commerce Services</a></li>
-              <li><a href="#">Scripting & Add-ons</a></li>
-            </ul>
-          </div>
-          <!--end products and services-->
-
-          <div class="one_fourth">
-            <h4 class="white">Legal</h4>
-            <div class="footer_title_line"></div>
-            <ul class="quick_links">
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Copyright</a></li>
-              <li><a href="#">Subpoenas</a></li>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Copyright</a></li>
-              <li><a href="#">Subpoenas</a></li>
-            </ul>
-          </div>
-          <!--end legal-->
-
-          <div class="one_fourth last">
-            <h4 class="white">Need Help ?</h4>
-            <div class="footer_title_line"></div>
-            <ul class="quick_links">
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Tech Support</a></li>
-              <li><a href="#">My Account</a></li>
-              <li><a href="#">Legal</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Documentation</a></li>
-              <li><a href="#">Report Abuse</a></li>
-              <li><a href="#">Careers</a></li>
-            </ul>
-          </div>
-          <!--end need help-->
-        </div>
-      </div>
+ 
       <!--end footer-->
       <div class="footer_payment_types">
         <div class="container">
